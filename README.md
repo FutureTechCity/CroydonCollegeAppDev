@@ -9,8 +9,7 @@ The first step is to install a python distribution. You should find a copy of th
 ~~~
 c:\App Development
 ~~~
-if you want to continue at home you can also download it from https://conda.io/miniconda.html
-
+if you want to continue at home you can also download it from [https://conda.io/miniconda.html](https://conda.io/miniconda.html).
 Click through the default options when installing.
 
 When complete, you should have a shortcut to Anaconda Prompt in your Start menu. Run this program and enter the command:
@@ -19,8 +18,7 @@ python
 ~~~
 to enter the Python interpreter.
 
-You can now experiment in the interpreter by following tutorial examples starting at https://docs.python.org/3/tutorial/introduction.html
-
+You can now experiment in the interpreter by following tutorial examples starting at [https://docs.python.org/3/tutorial/introduction.html](https://docs.python.org/3/tutorial/introduction.html).
 ## Install Spyder
 Next, we need to install an integrated editor and debugger for Python. To do this, open your Anaconda Prompt and enter the following command:
 ~~~
