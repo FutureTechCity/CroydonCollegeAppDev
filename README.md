@@ -1,6 +1,6 @@
 # Installing development software
 We will need several layers of development software to create Apps:
-* Miniconda3 - a Python distribution
+* [Miniconda3](InstallMiniconda3) - a Python distribution
 * Spyder - an Integrated Development Environment (IDE)
 * Kivy - an App development framework
 
