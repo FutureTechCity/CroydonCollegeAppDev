@@ -1,7 +1,7 @@
 """
 An implementation of Rock-Paper-Scissors in python, for teaching purposes.
 
-Note that there are no strings or if:else statements in this code.
+Note that there are no string comparisons or if:else statements in this code.
 """
 
 
@@ -57,16 +57,26 @@ class RPS(Enum):
 
 
 class Outcome(Enum):
-    draw = (lambda x, y: x.hand == y.hand,)
-    left_hand_wins = (lambda x, y: x.hand > y.hand,)
-    right_hand_wins = (lambda x, y: x.hand < y.hand,)
+    draw = (lambda x, y: x.hand == y.hand, 'Draw', 0)
+    left_hand_wins = (lambda x, y: x.hand > y.hand, 'You win', 1)
+    right_hand_wins = (lambda x, y: x.hand < y.hand, 'You lose', -1)
 
-    def __init__(self, pred):
-        self._predicate = pred
+    def __init__(self, *items):
+        self._predicate = items[0]
+        self._text = items[1]
+        self._score = items[2]
 
     @property
     def predicate(self):
         return self._predicate
+
+    @property
+    def text(self):
+        return self._text
+
+    @property
+    def score(self):
+        return self._score
 
     @classmethod
     def calculate(cls, left, right):
