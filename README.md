@@ -14,3 +14,6 @@ We will need several layers of development software to create Apps:
 * [Pong Game Example](https://kivy.org/docs/tutorials/pong.html) - A full `Pong` game tutorial.
 * [Widget Interactions (Video)](https://www.youtube.com/watch?v=-NvpKDReKyg&list=PLdNh1e1kmiPP4YApJm8ENK2yMlwF1_edq&index=3) - A tutorial on having widgets interact with eachother.
 
+# What to make
+* [App ideas](AppIdeas)
+
