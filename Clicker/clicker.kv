@@ -1,0 +1,11 @@
+#:kivy 1.0.9
+
+<ClickerGame>:
+    CookieButton:
+        center: self.parent.center
+
+    Label:
+        font_size: 70  
+        center_x: root.width / 4
+        top: root.top - 50
+        text: str(root.score)
