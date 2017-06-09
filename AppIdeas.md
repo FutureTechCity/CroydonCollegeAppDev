@@ -1,6 +1,6 @@
 # App Ideas
-## [tournameet](https://invis.io/XJA8O54PQ)
-This is a social tournament management app for online and physical games. Pretty cool and fun.
+## ~~[tournameet](https://invis.io/XJA8O54PQ)~~
+~~This is a social tournament management app for online and physical games. Pretty cool and fun.~~
 
 ## Freelancer app
 An app to help freelancers log their time and expenses
